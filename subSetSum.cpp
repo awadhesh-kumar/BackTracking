@@ -6,7 +6,7 @@ using namespace std;
 bool generateSubsetsUtil(int w[],int start,int size,int current_sum,int target,vector<int>& ans)
 {
 	
-	if(start>=size)
+	if(start>size)
 	return false;
 	else if(target==current_sum)
 	{
